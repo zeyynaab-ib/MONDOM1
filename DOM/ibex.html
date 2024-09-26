@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Bijoux</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cart">
+        <h1>Panier de Bijoux</h1>
+
+        <div class="cart-item" data-price="50">
+            <img src="bracelet.jpg" alt="Bracelet Femme" class="item-image">
+            <span class="item-name">Bracelet en Or</span>
+            <span class="item-price">50€</span>
+            <button class="like-button">♡</button>
+            <div class="quantity-controls">
+                <button class="minus">-</button>
+                <span class="quantity">1</span>
+                <button class="plus">+</button>
+            </div>
+            <button class="remove-button">Supprimer</button>
+        </div>
+
+        <div class="cart-item" data-price="75">
+            <img src="colier.png" alt="Collier Femme" class="item-image">
+            <span class="item-name">Collier en Argent</span>
+            <span class="item-price">75€</span>
+            <button class="like-button">♡</button>
+            <div class="quantity-controls">
+                <button class="minus">-</button>
+                <span class="quantity">1</span>
+                <button class="plus">+</button>
+            </div>
+            <button class="remove-button">Supprimer</button>
+        </div>
+
+        <div class="cart-item" data-price="40">
+            <img src="boucles.jpg" alt="Boucles d'oreilles Femme" class="item-image">
+            <span class="item-name">Boucles d'Oreilles en Diamant</span>
+            <span class="item-price">40€</span>
+            <button class="like-button">♡</button>
+            <div class="quantity-controls">
+                <button class="minus">-</button>
+                <span class="quantity">1</span>
+                <button class="plus">+</button>
+            </div>
+            <button class="remove-button">Supprimer</button>
+        </div>
+
+        <div class="cart-item" data-price="60">
+            <img src="bague.jpg" alt="Bague Femme" class="item-image">
+            <span class="item-name">Bague en Platine</span>
+            <span class="item-price">60€</span>
+            <button class="like-button">♡</button>
+            <div class="quantity-controls">
+                <button class="minus">-</button>
+                <span class="quantity">1</span>
+                <button class="plus">+</button>
+            </div>
+            <button class="remove-button">Supprimer</button>
+        </div>
+
+        <div class="cart-item" data-price="85">
+            <img src="pendentif.jpg" alt="Pendentif Femme" class="item-image">
+            <span class="item-name">Pendentif en Saphir</span>
+            <span class="item-price">85€</span>
+            <button class="like-button">♡</button>
+            <div class="quantity-controls">
+                <button class="minus">-</button>
+                <span class="quantity">1</span>
+                <button class="plus">+</button>
+            </div>
+            <button class="remove-button">Supprimer</button>
+        </div>
+
+        <div class="total">
+            Total: <span id="total-price">310€</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
